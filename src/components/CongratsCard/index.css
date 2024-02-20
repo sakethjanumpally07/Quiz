@@ -1,0 +1,80 @@
+.congrats-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/quiz-game-congrats-card-bg.png');
+  background-size: cover;
+}
+
+.trophy-image {
+  height: 164px;
+}
+
+.congrats-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  color: #334155;
+  margin-top: 48px;
+  margin-bottom: 8px;
+}
+
+.header-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 500;
+  color: #0ea5e9;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.description-text {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 24px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.sub-description-text {
+  text-align: center;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  max-width: 362px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.report-button {
+  color: #ffffff;
+  background-color: #0ea5e9;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 32px;
+  padding-top: 8px;
+  padding-right: 16px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  cursor: pointer;
+  outline: none;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .report-button {
+    font-size: 14px;
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-right: 19px;
+    padding-bottom: 10px;
+    padding-left: 19px;
+    line-height: 1.3;
+  }
+}

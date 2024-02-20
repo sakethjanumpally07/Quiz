@@ -1,0 +1,71 @@
+.button-option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  list-style-type: none;
+  max-width: 300px;
+  flex-grow: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .button-option-item {
+    width: 42%;
+    margin-bottom: 32px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button-option-item {
+    max-width: 450px;
+  }
+}
+
+.check-circle {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+}
+
+.button-option {
+  text-align: left;
+  color: #334155;
+  background-color: #cbd5e1;
+  font-family: 'Roboto';
+  font-size: 16px;
+  width: 80%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+  outline: none;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .button-option {
+    font-size: 20px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    line-height: 1.5;
+  }
+}
+
+.correct-selected-button {
+  color: #f8fafc;
+  background-color: #1c944b;
+  cursor: not-allowed;
+}
+
+.incorrect-selected-button {
+  color: #f8fafc;
+  background-color: #bf2626;
+  cursor: not-allowed;
+}
+
+.option-in-active {
+  cursor: not-allowed;
+}

@@ -1,0 +1,58 @@
+.nav-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fafbfe;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  max-width: 1400px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-content {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+.website-logo {
+  width: 75px;
+}
+
+@media screen and (min-width: 768px) {
+  .website-logo {
+    width: 95px;
+  }
+}
+
+.logout-button {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 12px;
+  background-color: #263868;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-right: 24px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .logout-button {
+    padding-top: 12px;
+    padding-right: 32px;
+    padding-bottom: 12px;
+    padding-left: 32px;
+  }
+}
